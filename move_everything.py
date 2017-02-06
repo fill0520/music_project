@@ -13,6 +13,7 @@ musicdirs = [f[0] for f in os.walk(path)]
 musicdirs = musicdirs[1:]
 for d in musicdirs:
 	file = d + "/README.md"
-	with open(file, 'w') as f:
-		f.write('#Топовые моменты и тайминг:')
+	if not os.path.isfile(file):
+		with open(file, 'w') as f:
+			f.write('#Топовые моменты и тайминг:')
 
