@@ -12,4 +12,4 @@
 
 
 
-[жмак](vk.com/elnardu)
+[жмак](http://vk.com/elnard)
